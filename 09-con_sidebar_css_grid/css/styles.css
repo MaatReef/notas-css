@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    background-color: #F0B67F;
+    background: #F0B67F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f0b67f83, #da6b04);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f0b67fb4, #da6b04); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.entrada-blog a {
+    display: inline-block;
+    background-color: #2196F3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/** CODIGO AQUI **/
+
+@media (min-width: 768px) {
+    .con-sidebar {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        column-gap: 4rem;
+        grid-auto-flow: column;
+    }
+    aside {
+        grid-column: 2 / 3;
+    }
+}
