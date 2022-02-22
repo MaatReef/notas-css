@@ -223,3 +223,13 @@ h1, h2 {
     grid-template-columns: repeat(auto-fit, minmax( 200px, 1fr ) );
     grid-template-columns: repeat(auto-fit, minmax( 300px, 1fr ) );
 }
+
+.context{
+    display: flex;
+}
+a{
+    justify-content: space-between;
+    margin: auto;
+    font-size: 2.5rem;
+    padding: 2rem;
+}

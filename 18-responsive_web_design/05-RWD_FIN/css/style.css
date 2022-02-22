@@ -1,7 +1,7 @@
 :root {
     --azul: #0071b7;
     --blanco: #FFF;
-    --naranja: #fd977b;;
+    --naranja: #fd977b;
 }
 html {
     font-size: 62.5%; /** 1REM = 10pX **/
@@ -82,4 +82,14 @@ p {
     padding-top: 8rem;
     text-align: center;
     margin-bottom: 2rem;
+}
+
+.context{
+    display: flex;
+}
+a{
+    justify-content: space-between;
+    margin: auto;
+    font-size: 2.5rem;
+    padding: 2rem;
 }

@@ -30,6 +30,7 @@ h1 {
 
 h2 {
     font-size: 3.2rem;
+    padding: 0 2rem;
 }
 
 p {
@@ -64,4 +65,14 @@ h1 {
         font-size: 6rem;
         text-align: left;
     }
+}
+
+.context{
+    display: flex;
+}
+a{
+    justify-content: space-between;
+    margin: auto;
+    font-size: 2.5rem;
+    padding: 2rem;
 }

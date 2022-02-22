@@ -199,3 +199,13 @@ h1, h2 {
 .d-flex-13 .box {
     flex: 1 0 33.3%;
 }
+
+.context{
+    display: flex;
+}
+a{
+    justify-content: space-between;
+    margin: auto;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
